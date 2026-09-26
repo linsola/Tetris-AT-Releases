@@ -1,0 +1,17 @@
+# This repository is documentation-only. Upload binaries to GitHub Releases.
+*.zip
+*.7z
+*.exe
+*.dll
+*.pdb
+*.tatbook
+*.ccbook
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+build/
+dist/
+logs/
+replays/

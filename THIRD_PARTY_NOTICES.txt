@@ -1,0 +1,190 @@
+Tetris AT v0.25.0 - Third-Party Notices
+Reviewed: 25 September 2026
+
+The project-level LICENSE.txt applies only to the proprietary portions that
+miaha is entitled to license. The components listed below retain their own
+copyrights, licenses, permissions and disclaimers. The project's restrictions
+on paid distribution, modifications or source disclosure do not replace or
+restrict rights independently granted by these third-party licenses.
+Including MIT, BSD, Apache, FTL or OFL texts here does NOT license the whole
+Tetris AT project under those licenses.
+
+Keep this file and all accompanying license/attribution files with every
+complete official package. These texts are documentation, not game source.
+Names and marks identify their respective owners; no endorsement is implied.
+
+1. clys - Main AI / reference core
+
+Upstream: https://github.com/citrus610/clys
+Copyright (c) 2024 citrus610
+License: MIT; complete original text: licenses/clys.txt
+Original: https://github.com/citrus610/clys/blob/main/LICENSE
+
+The AI/reference core includes adapted clys code. Tetris AT integration and
+changes are not represented as the unmodified upstream clys project. The
+original MIT permissions and notices continue to apply to that component.
+
+2. JSON for Modern C++ (nlohmann/json) 3.9.1
+
+Upstream: https://github.com/nlohmann/json/tree/v3.9.1
+The supplied single header carries:
+Copyright (c) 2013-2019 Niels Lohmann <http://nlohmann.me>.
+License: MIT; complete header license: licenses/nlohmann-json.txt
+The library's metadata also identifies (C) 2013-2021 Niels Lohmann.
+Original credits have not been changed to the Tetris AT author.
+
+Embedded portions of this header have separate credits:
+
+- Hedley, created by Evan Nemerson <evan@nemerson.com>.
+  https://nemequ.github.io/hedley
+  To the extent possible under law, the author(s) have dedicated all
+  copyright and related and neighboring rights to this software to
+  the public domain worldwide. This software is distributed without
+  any warranty.
+  CC0-1.0; full text: licenses/Hedley-CC0.txt
+
+- Abseil utility/make_index_sequence fragment.
+  Copyright 2017 The Abseil Authors.
+  Apache License 2.0; full text: licenses/Abseil-Apache-2.0.txt
+  Incorporated/adapted into nlohmann/json, including its JSON namespace
+  and header integration; not an unmodified standalone Abseil distribution.
+  Original: https://github.com/abseil/abseil-cpp/blob/10cb35e459f5ecca5b2ff107635da0bfa41011b4/absl/utility/utility.h
+
+- Grisu2 reference implementation.
+  Copyright (c) 2009 Florian Loitsch
+  MIT; full text: licenses/Grisu2-MIT.txt
+  nlohmann/json describes its implementation as slightly modified.
+  Reference: http://florian.loitsch.com/publications
+
+- Flexible and Economical UTF-8 Decoder.
+  Copyright (c) 2008-2009 Bjoern Hoehrmann <bjoern@hoehrmann.de>
+  MIT; full text: licenses/UTF8-decoder-MIT.txt
+  nlohmann/json records an adaptation to use std::array.
+  Original: https://bjoern.hoehrmann.de/utf-8/decoder/dfa/
+
+3. Simple DirectMedia Layer (SDL2) 2.30.11
+
+Runtime file: SDL2.dll
+Upstream: https://github.com/libsdl-org/SDL/tree/release-2.30.11
+Copyright (C) 1997-2025 Sam Lantinga <slouken@libsdl.org>
+License: zlib; complete supplied text: licenses/SDL2.txt
+
+Notices for code included in the upstream SDL distribution are also retained
+for embedded/platform-dependent functionality in the supplied DLL:
+
+- HIDAPI: Copyright (c) 2010, Alan Ott, Signal 11 Software.
+  Distributed here under the offered BSD 3-Clause option, not its GPL option.
+  Complete text: licenses/HIDAPI-BSD.txt
+  https://github.com/libsdl-org/SDL/blob/release-2.30.11/src/hidapi/LICENSE-bsd.txt
+
+- yuv2rgb: Copyright (c) 2016, Adrien Descamps. All rights reserved.
+  BSD 3-Clause; complete text: licenses/SDL-yuv2rgb.txt
+  https://github.com/libsdl-org/SDL/blob/release-2.30.11/src/video/yuv2rgb/LICENSE
+
+- fdlibm math routines: Copyright (C) 1993 by Sun Microsystems, Inc.
+  All rights reserved. Developed at SunPro, a Sun Microsystems, Inc. business.
+  Complete permission notice: licenses/SDL-libm.txt
+  https://github.com/libsdl-org/SDL/tree/release-2.30.11/src/libm
+
+These notices do not imply that all SDL platform backends are used on Windows.
+
+4. SDL2_ttf 2.24.0
+
+Runtime file: SDL2_ttf.dll
+Upstream: https://github.com/libsdl-org/SDL_ttf/tree/release-2.24.0
+Copyright (C) 1997-2025 Sam Lantinga <slouken@libsdl.org>
+License: zlib; complete supplied text: licenses/SDL2_ttf.txt
+Original distribution README: licenses/SDL2_ttf-README.txt
+
+FreeType and HarfBuzz are embedded in this Windows DLL; the absence of separate
+DLLs does not remove their attribution/license requirements.
+
+5. FreeType 2.13.2, embedded through SDL2_ttf
+
+This software is based in part on the work of the FreeType Team.
+Portions of this software are copyright (C) 2013 The FreeType Project
+(www.freetype.org). All rights reserved. This attribution is retained from
+the supplied SDL2_ttf README; it is not a substitute for the full FTL below.
+
+Distributed here under the FreeType License (FTL) option, not the GPL option.
+Full FTL, including its authors' copyright notices: licenses/FreeType-FTL.txt
+Upstream: https://freetype.org/
+SDL2_ttf's pinned FreeType revision:
+https://github.com/libsdl-org/freetype/tree/12c5e620858bd503731091e9371d06c0a3e7c967
+
+Additional FreeType module notices retained:
+- BDF driver and derived hashing: Francesco Zappa Nardelli; Computing
+  Research Labs, New Mexico State University. All original notices and MIT
+  permissions are in licenses/FreeType-BDF.txt.
+- PCF driver: Copyright (C) 2000 by Francesco Zappa Nardelli; MIT and credits
+  are in licenses/FreeType-PCF.txt.
+- Embedded zlib 1.3: Copyright (C) 1995-2023 Jean-loup Gailly and Mark Adler;
+  full zlib notice in licenses/FreeType-zlib.txt.
+- HarfBuzz-derived code retains the HarfBuzz notices in the next section.
+
+6. HarfBuzz 8.1.1, embedded through SDL2_ttf
+
+Upstream: https://harfbuzz.github.io/
+Old MIT license; full text and all upstream copyright lines:
+licenses/HarfBuzz.txt
+SDL2_ttf's pinned HarfBuzz revision:
+https://github.com/libsdl-org/harfbuzz/tree/e18e66409d0136cc8f8b05aac791f84314520676
+
+HarfBuzz's generated Unicode Character Database table identifies Unicode
+15.0.0. The Unicode data permission notice (1991-2022 Unicode, Inc.) is
+included in licenses/Unicode-data.txt. This is a data notice, not a claim
+that the ICU runtime library is included in Tetris AT.
+
+7. Noto Sans CJK font collection 2.004
+
+Runtime file: assets/fonts/NotoSansCJK-Regular.ttc
+Embedded copyright: (C) 2014-2021 Adobe (http://www.adobe.com/).
+The exact embedded copyright string and version are in assets/fonts/NOTICE.txt.
+License: SIL Open Font License 1.1, full text: assets/fonts/LICENSE.txt
+Upstream: https://github.com/notofonts/noto-cjk
+The font is not relicensed as proprietary Tetris AT content.
+
+8. Source-only reference helper: xxHash-derived xxh3.h
+
+The repository retains an xxHash-derived reference helper. It is not included
+by the currently compiled targets and is not shipped as source in the portable
+release. Its notice is retained for provenance, not as a claim that the current
+runtime links it. The precise revision of the adapted helper is not recorded.
+Upstream: https://github.com/Cyan4973/xxHash
+Copyright (c) 2012-2021 Yann Collet. All rights reserved.
+BSD 2-Clause; upstream v0.8.2 reference notice: licenses/xxHash-BSD-2-Clause.txt
+https://github.com/Cyan4973/xxHash/blob/v0.8.2/LICENSE
+This upstream reference is not a determination of the local helper's exact
+revision or provenance. Confirm that provenance before enabling or distributing
+the helper itself; no missing local copyright date has been invented here.
+
+9. Microsoft build/runtime components
+
+The Windows build uses MSVC and statically links its runtime (/MT). Microsoft
+components remain governed by their applicable original terms; this file
+does not relicense them or prove the publisher's toolchain-license eligibility.
+No compiler, Windows SDK, debug runtime or redistributable installer is added
+to the portable package by the legal-document packaging rules.
+Reference: https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution
+
+10. Project assets and scope of this review
+
+The maintainer has confirmed that the route books and template data were
+independently generated or written, with public pages and videos used only
+as strategy references, not as copied raw route books, text, images or records.
+See data/opening_books/NOTICE.md. This records the maintainer's confirmation,
+not independent proof of ownership or a blanket clearance of public sources.
+
+The battle/UI sound set is recorded in the project as original procedural
+audio made for Tetris AT (Glass Circuit 1.0), without third-party samples.
+AI assistance or procedural generation is not by itself a legal guarantee.
+
+Build/research tools and external sites are not automatically runtime
+dependencies. No Cold Clear runtime, Rust code, compiler or external research
+video is added to the binary package by these notices. References to an
+algorithm, tool or strategy do not imply its author's endorsement.
+
+These notices document the reviewed dependency/assets set. Recheck them when
+libraries, binaries, fonts, assets or data sources change. They do not clear
+third-party trademarks, game branding or visual-design rights, and do not
+constitute an absolute copyright-safety guarantee or legal opinion.

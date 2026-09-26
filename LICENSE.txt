@@ -1,0 +1,101 @@
+Tetris AT - Closed-Source Free Distribution License
+Version 1.0 - 25 September 2026
+
+Copyright (c) 2026 miaha, for the original portions of Tetris AT to which
+miaha holds the relevant rights. All rights reserved except as stated below.
+Third-party copyright notices and licenses are preserved separately.
+
+1. Scope and third-party rights
+
+These terms apply to the proprietary portions of the official Tetris AT
+release, including its original program, documentation and original assets.
+Tetris AT is distributed as closed-source freeware, not as an MIT-, GPL-
+or other open-source-licensed project as a whole. Free of charge does not
+mean that the project's proprietary source code is publicly licensed.
+
+Third-party components remain subject to their own original licenses.
+See THIRD_PARTY_NOTICES.txt, licenses/ and assets/fonts/LICENSE.txt.
+Nothing in these terms replaces, narrows or restricts rights granted by
+those licenses, including any rights to use, modify or commercially
+redistribute the third-party components. In a conflict concerning a
+third-party component, its own license controls. The restrictions below
+apply only to rights that miaha is entitled to license or restrict.
+Rights that cannot be limited under applicable law remain unaffected.
+
+2. Free downloading, personal use and sharing
+
+You may download the official release free of charge, install and run it
+for personal play and practice, and keep personal backup copies.
+
+You may share the unmodified, complete official release package free of
+charge, including the official portable ZIP or its complete extracted
+contents. Preserve all included license files, copyright and attribution
+notices, and disclaimers. Do not remove or alter these notices, substitute
+modified files, present a modified package as official, or require payment
+for access to the software. Share a clean official package, not your
+personal saves, settings or other user data.
+
+3. Paid software distribution requires separate permission
+
+Unless miaha separately authorizes it, you may not resell the software,
+charge for distributing it or access to its download, or bundle or include
+it in a paid product or service. This includes charging a package, access
+or subscription fee as a means of supplying the software.
+
+These are restrictions on supplying the software, not a blanket ban on
+commercial activity. The video and livestream permissions in section 4
+are express exceptions and are not prohibited merely because they earn
+revenue or are hosted on a commercial platform.
+
+4. Gameplay videos, livestreams and related revenue
+
+You may record, edit, publish and livestream your use of Tetris AT,
+including gameplay, tutorials, commentary and reviews. You may earn
+revenue from that content through advertising, platform revenue sharing,
+and voluntary viewer tips or donations, without separate permission from
+miaha. This permission covers showing the software and its original
+in-game audiovisual content in those recordings or streams; it does not
+authorize selling or charging for the software itself.
+
+Do not misrepresent your channel or content as an official endorsement.
+This permission covers only rights controlled by miaha. Obtain any
+separate rights needed for third-party music, footage or other material
+you add, and comply with applicable law and platform rules.
+
+5. Rights not granted
+
+Except for the permissions above, applicable law and third-party licenses,
+no permission is granted to distribute modified versions of Tetris AT's
+proprietary portions, publish or redistribute its proprietary source code,
+or redistribute its proprietary assets separately from the complete
+official package. These terms do not require disclosure of proprietary
+source code. Separate authorization may be obtained from miaha through
+the official project channel. No third-party trademark, sponsorship or
+endorsement is granted or implied.
+
+6. As-is software; limits required by law
+
+To the extent permitted by applicable law, the software is provided
+"as is" and "as available", without express or implied warranties,
+including fitness for a particular purpose, merchantability, stability,
+continuous availability or error-free operation. This is test software;
+keep backups of important data. No promise of continuing support,
+updates, compatibility or defect correction is made by these terms.
+
+To the extent permitted by applicable law, miaha is not liable for loss
+or damage arising from use of, or inability to use, the software,
+including lost data and indirect or consequential loss. This limitation
+does not exclude or restrict any liability, statutory guarantee or
+consumer right that cannot lawfully be excluded or restricted. If the
+law requires liability or a remedy, that law takes precedence.
+
+Third-party disclaimers are reproduced as required by their original
+licenses; they are not rewritten as warranties or promises by miaha.
+
+7. Interpretation
+
+This file contains the project's distribution terms. README summaries do
+not expand or override it, and neither this file nor those summaries
+override third-party licenses or mandatory law. If a provision is
+unenforceable, the remaining provisions apply to the extent permitted
+by law. No choice of governing law or exclusive court is imposed here.

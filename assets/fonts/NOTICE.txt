@@ -1,0 +1,14 @@
+Bundled font: NotoSansCJK-Regular.ttc
+Noto Sans CJK / Noto Sans Mono CJK collection, version 2.004.
+
+Copyright notice embedded in the supplied font:
+© 2014-2021 Adobe (http://www.adobe.com/).
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+The complete license is in LICENSE.txt in this directory.
+Keep this copyright notice together with that license when redistributing
+the font. The Tetris AT proprietary license does not replace or restrict
+rights granted under the font's own license.
+
+Upstream project: https://github.com/notofonts/noto-cjk
+Embedded version: Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603
