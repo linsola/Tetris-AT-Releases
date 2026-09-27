@@ -6,9 +6,9 @@ This repository contains release documentation, license notices, and official te
 
 ## Download and launch
 
-**[Download v0.25.0-test.1 (Windows x64)](https://github.com/linsola/Tetris-AT-Releases/releases/tag/v0.25.0-test.1)**
+**[Download v0.25.0-test.2 (Windows x64)](https://github.com/linsola/Tetris-AT-Releases/releases/tag/v0.25.0-test.2)**
 
-1. Download `Tetris-AT-v0.25.0-test.1-Windows-x64.zip` from **Assets** on the release page.
+1. Download `Tetris-AT-v0.25.0-test.2-Windows-x64.zip` from **Assets** on the release page.
 2. Extract the complete archive to a writable local folder, keeping all files and subfolders together.
 3. Double-click `Tetris AT v0.25.0.exe`. Do not run it from inside the ZIP or copy only the EXE.
 
